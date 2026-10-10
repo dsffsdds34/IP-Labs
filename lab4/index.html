@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab4</title>
+</head>
+
+<body>
+    <header>
+        <h1>
+            Картка Студента
+        </h1>
+    </header>
+    <main>
+        <section>
+            <form action="." method="post">
+
+                <h2>Personal Information</h2>
+                <fieldset>
+                    <legend>Provide your details</legend>
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="fullname">
+                    <br>
+                    <br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <br>
+                    <br>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required minlength="3">
+                    <br>
+                    <br>
+                    <label for="number">Age:</label>
+                    <input type="number" id="number" name="number" min="1" max="123">
+                    <br>
+                    <br>
+                    <label for="date">Date of Birth:</label>
+                    <input type="date" id="date" name="date">
+                    <br>
+                    <br>
+                    <label for="radio">Gender:</label>
+                    <br>
+                    <label for="Male">Male</label>
+                    <input type="radio" id="Male" name="gender">
+                    <br>
+                    <lable for="Female">Female</lable>
+                    <input type="radio" id="Female" name="gender">
+                    <br>
+
+                    <br>
+                    <br>
+
+                    <label for="checkbox">Known Languages</label>
+                    <br>
+                    <label for="checkbox">English</label>
+                    <input type="checkbox" id="English" name="Languages">
+                    <br>
+                    <label for="checkbox">Ukrainian</label>
+                    <input type="checkbox" id="Ukrainian" name="Language">
+                    <br>
+                    <label for="checkbox">German</label>
+                    <input type="checkbox" id="German" name="German">
+
+                    <br>
+                    <br>
+
+                    <label for="select">Country:</label>
+                    <select name="country" id="select">
+                        <option value="">None of below</option>
+                        <option value="english">England</option>
+                        <option value="ukrainian">Ukraine</option>
+                        <option value="german">Germany</option>
+                    </select>
+                    <br>
+                    <br>
+                    <input type="submit">
+
+                </fieldset>
+            </form>
+        </section>
+
+    </main>
+
+
+</body>
+
+</html>
